@@ -169,6 +169,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	background-color: #222;
 	border-color: #222;
 }
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #526cbb; /* Green */
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	margin-left: 0 auto;
+}
+
+.button:hover {
+
+}
 .btn-primary {
 	color: #526cbb;
 	background-color: transparent;
